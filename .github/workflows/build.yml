@@ -10,11 +10,11 @@ on:
             KSU_GIT_BRANCH:
                 description: 'Preferred branch of the preferred KernelSU git repository (leave it be for KernelSU-Next, otherwise must define):'
                 required: false
-                default: 'next'
+                default: 'dev'
             INCLUDE_SUSFS:
                 type: boolean
                 description: 'Build with SuSFS (leave it be if unsure)?'
-                required: true
+                required: false
                 default: true
             KERNEL_GIT:
                 description: 'Link to the git repository of your preferred kernel source:'
