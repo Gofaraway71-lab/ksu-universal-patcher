@@ -14,8 +14,8 @@ on:
             INCLUDE_SUSFS:
                 type: boolean
                 description: 'Build with SuSFS (leave it be if unsure)?'
-                required: false
-                default: false
+                required: true
+                default: true
             KERNEL_GIT:
                 description: 'Link to the git repository of your preferred kernel source:'
                 required: true
