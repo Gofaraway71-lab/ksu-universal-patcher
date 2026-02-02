@@ -19,6 +19,7 @@ on:
             KERNEL_GIT:
                 description: 'Link to the git repository of your preferred kernel source:'
                 required: true
+                default: 'https://github.com/Gofaraway71-lab/Storm_kernel_salaa_susf.git'
             KERNEL_GIT_BRANCH:
                 description: 'Preferred branch of the kernel source git repository:'
                 required: true
