@@ -22,6 +22,7 @@ on:
                 default: 'https://github.com/Gofaraway71-lab/Storm_kernel_salaa_susf.git'
             KERNEL_GIT_BRANCH:
                 description: 'Preferred branch of the kernel source git repository:'
+                default: 'main'
                 required: true
             KERNEL_ARCH:
                 type: choice
@@ -49,6 +50,7 @@ on:
             KERNEL_CONFIGS:
                 description: 'Space-seperated list of kernel configs by order (!IMPORTANT AND DANGEROUS!):'
                 required: true
+                default: 'salaa_defconfig'
 
 jobs:
     build:
