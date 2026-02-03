@@ -43,7 +43,7 @@ on:
             KERNEL_COMPILER_TOOLCHAIN:
                 description: 'Direct link to custom compiler prebuilt toolchain (leave blank if not required):'
                 required: false
-                default: 'https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379.git'
+                
             KERNEL_COMPILER_PREFIX:
                 description: 'Path prefix for custom prebuilt toolchain (must define if custom toolchain, otherwise leave blank):'
                 required: false
